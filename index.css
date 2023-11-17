@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'tajawal' ,sans-serif;
+}
+
+h1{
+text-align: center; 
+}
+.container h1{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.card p{
+    width: 90%;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    background-color: gray;
+    position: relative;
+}
+.chicken{
+    padding-right: 20px;
+    position: absolute;
+margin-top: 0px;
+padding-left: 30px;
+    right: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    background-color:darksalmon;
+}
+.beef{
+    position: absolute;
+    padding-right: 20px;
+    margin-top: 0px;
+    padding-left: 30px;
+        right: 0;
+        top: 0;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    background-color: brown;
+    color: aliceblue;
+}
+.sushi{
+    position: absolute;
+    margin-top: 0px;
+    padding-right: 20px;
+padding-left: 30px;
+    right: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    background-color: rgb(221, 180, 75);
+}
+
+@media (max-width: 1400px){
+    .card p{
+        font-size: 1em;
+    }
+    .card{
+        width: 30%;
+    }
+ }
+ @media (max-width: 1294px){
+    .card p{
+        font-size: 1em;
+    }
+
+    .card{
+        width: 29%;
+ }
+@media (max-width: 990px){
+.card p{
+    font-size: 1em;
+}
+.card{
+    width: 43%;
+}
+#sushi{
+    width: 90%;
+}
+}
+@media (max-width:700px){
+    .card p{
+        font-size: .8em;
+    }
+    .card{
+        width: 90%;
+    }
+}
+ }
